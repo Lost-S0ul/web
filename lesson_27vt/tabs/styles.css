@@ -1,0 +1,70 @@
+.tabs {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    padding: 50px 100px;
+}
+
+.btn-container {
+    width:  700px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tab-btn {
+    width: 160px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.tabs-content {
+    margin-top: 100px;
+}
+
+.tab-btn:nth-child(1){
+    background-color: bisque;
+}
+
+.tab-btn:nth-child(2) {
+    background-color:palegreen;
+}
+
+.tab-btn:nth-child(3){
+    background-color: lightblue;
+}
+
+
+.content:nth-child(1) h2{
+    color: bisque;
+}
+
+.content:nth-child(2) h2{
+    color: palegreen;
+}
+
+.content:nth-child(3) h2{
+    color: lightblue;
+}
+
+
+
+.btn-container .active {
+    background-color: red;
+    font-weight: 600;
+    width: 180px;
+    height: 90px;
+}
+
+.content {
+    display: none;
+    font-size: 20px;
+}
+.content.active {
+    display: block;
+}
+

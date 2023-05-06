@@ -1,0 +1,80 @@
+.modal {
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    padding: 25px;
+    padding-top: 50px;
+    transform: translate(-50%, -50%);
+    background: rgba( 250, 90, 106, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+p {
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #222;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 8px 13px;
+    margin: 50px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    animation: glow 8s linear infinite;
+}
+
+.btn:first-child:hover {
+    background: linear-gradient(90deg, #010133, #fd6284, #658a94,#010133);
+    background-size: 400%;
+}
+
+.btn:last-child:hover {
+    background: linear-gradient(90deg, #225d47, #46e0c1,#f949af, #225d47);
+    background-size: 400%;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 400%;
+    }
+    
+}
+
+.close {
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.close:hover {
+    background: red;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.btn-box {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.btn {
+    padding: 20px 60px; 
+    margin: 0 35px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:first-child:hover {
+    background: linear-gradient(90deg, #010133, #2d376c, #fd6284, #658a94, #3f5c63, #010133);
+    background-size: 400%;
+}
+
+.btn:last-child:hover {
+    background: linear-gradient(90deg, #1a5c5c, #8fb769, #da7d74, #1a5c5c);
+    background-size: 400%;
+}
+
+.btn:hover {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+.modal {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 50px;
+    background: rgba( 0, 17, 46, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color:red;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}

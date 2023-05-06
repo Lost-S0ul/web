@@ -1,0 +1,59 @@
+body {
+    background-color: cornsilk;
+}
+
+.slider {
+    position: relative;
+}
+
+
+.slides-container {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;  /* если содержмиое не вмещается, тогда появляется прокрутка */
+    scroll-behavior: smooth;
+}
+
+.slide {
+    padding: 50px;
+    flex: 1 0 95%;
+}
+
+.slide:nth-child(odd){
+    background-color: blue;
+}
+
+.slide:nth-child(even){
+    background-color: darkgoldenrod;
+}
+
+.arrow {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 90px;
+    width: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 100ms ease;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+#next {
+    right: 0;
+    border-radius: 20px 0 0 20px;
+}
+
+#prev {
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}

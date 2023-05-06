@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Marmelad', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;  /* Горизонт */
+    align-items: center;  /* Вертикаль */
+    background: url("img/pig-bkg.webp");
+    color: #333;
+}
+
+main {
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.35);
+    backdrop-filter: blur(200px);
+    width: 70vw;
+    height: 70vh;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0 20px 50px rgb(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.player {
+    flex: 50%;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Горизонтальное выравнивание */
+    /* margin: 25px 0; */
+}
+
+.dice {
+    height: 90px;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 190px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.15);
+}
+
+.btn {
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.6);
+    backdrop-filter: blur(200px);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+}
+
+.btn-new {
+    top: 10%;
+}
+
+.btn-roll {
+    bottom: 22%;
+}
+
+.btn-hold {
+    bottom: 10%;
+}
+
+.name {
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 45px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+
+.score {
+    font-size: 60px;
+    font-weight: 600;
+    color:rgb(254, 70, 104);
+    margin-bottom: auto;
+    margin-top: 10px;
+}
+
+.current {
+    background-color: rgb(165, 42, 65);
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.player.active {
+    background-color: rgb(255, 255, 255, 0.55);
+}
+
+.hidden {
+    display: none;
+}
