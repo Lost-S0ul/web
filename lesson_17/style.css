@@ -1,0 +1,68 @@
+header, footer, .testimonials {
+    background-color: #4B9E83;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.navbar {
+    padding-bottom: 5%;
+}
+
+header {
+    padding: 2% 10% 7%;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(20deg);
+    border-radius: 20px;
+}
+
+.features-img {
+    width: 20%;
+}
+
+.features {
+    padding: 7% 0;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    padding: 8%;
+}
+
+.cards {
+    padding: 0 17%;
+}
+
+.faq {
+    padding: 5% 0;
+}
+
+.accordion {
+    padding: 0 8%;
+}
+
+.accord-sect {
+    background-color: #4B9E83;
+    padding: 7% 0;
+}
+
+.paw {
+    width: 300px;
+    opacity: 0.35;
+}
+
+footer {
+    font-size: 28px;
+    padding: 3% 0;
+    text-align: center;
+}
