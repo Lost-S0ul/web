@@ -1,0 +1,71 @@
+body{
+    width: 100%;
+    height: 100%;
+ 
+    background: #E1CDE1;
+    border-radius: 150px;
+ 
+}
+ 
+.ugaday{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  /* по верх-низ */
+    justify-content: center;  /* лево-право */
+    
+    width: 692px;
+    height: 200px;
+ 
+    position: absolute;
+    
+    left: 97px;
+    top: 122px;
+ 
+    background: #D3BAE6;
+    border-radius: 100px;
+}
+ 
+.ugaday h1 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    text-align: center;
+    /* identical to box height, or 106% */
+ 
+    text-transform: uppercase;
+ 
+    color: #000000;
+ 
+    /* padding-right: 10px; */
+}
+ 
+.ugaday h2 {
+    position: absolute;
+    width: 556px;
+    height: 52px;
+    left: 0px;
+    top: 320px;
+ 
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+ 
+    text-align: center;
+ 
+    color: #000000;
+}
+ 
+.kot {
+    position: absolute;
+    width: 389px;
+    height: 393px;
+    left: 1300px;
+    top: 90px;
+ 
+    background: url(https://s3-alpha-sig.figma.com/img/a8ad/8964/f5517eec41bd3a2abaa6a4dc760494a6?Expires=1679270400&Signature=WNJjFNsBd44Gs~Ck33Wk4JZB3NRdBgvZVhSEZdjI~-EZly55Sj~jhsGSINKN2uNhSZvw~J-JoBkxJJImrG~auiv9hmRFsmuYK~BKsvmZXZTOz-SYpK-33GKhzpmdSdzoL-e4g4ISqmdHy17qkD3bhbiVr5FeaGhTvfRKJlTjR-E9pe5bAxdwp3QgWNPM6IZS3rTEa0Yh-I0JWuWioo6bWUCWTXIUkoLOOU3NfReIiF5CXCvc5h0l9KNNFqc0pGUWzrtGn93NHmvV7f1CUvCdH7ncGP2nNfdMIbWm5elVmTL14G-NxB35sMJcER7KfBQv6Dd-rfum3Lm7K7a0m2W1Rw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    border-radius: 200px;
+}
